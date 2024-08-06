@@ -1,4 +1,4 @@
-import 'package:budget_buddy/screens/home.dart';
+import 'package:budget_buddy/screens/home/views/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
