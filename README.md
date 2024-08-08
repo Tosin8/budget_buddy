@@ -1,5 +1,8 @@
 # budget_buddy
 
-A money management app 
+A wallet money management app. 
 
-Stack: Bloc state management
+Industry : Finance. 
+Stack: Bloc state management. 
+
+
