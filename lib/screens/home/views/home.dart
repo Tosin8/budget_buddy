@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:budget_buddy/screens/home/views/main_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -44,7 +45,8 @@ class HomeScreen extends StatelessWidget {
 
         decoration:  BoxDecoration(
           shape: BoxShape.circle,
-          gradient: LinearGradient(colors: [
+          gradient: LinearGradient(
+            colors: [
            
            
             Theme.of(context).colorScheme.tertiary, 
@@ -54,7 +56,10 @@ class HomeScreen extends StatelessWidget {
           transform: const GradientRotation(pi / 4), 
           )
         ),
-        child: const Icon(CupertinoIcons.add)),),
+        child: const Icon(CupertinoIcons.add), 
+        ),
+        ), 
+        body: const MainScreen(),
     );
   }
 }

@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
         primary: const Color(0xff00b2e7), 
         secondary: const Color(0xffe064f7), 
         tertiary: const Color(0x0fff8d6c), 
+        outline: Colors.grey, 
        ),
         useMaterial3: true,
       ),
