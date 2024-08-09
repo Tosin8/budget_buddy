@@ -14,10 +14,16 @@ class MainScreen extends StatelessWidget {
           height: 50, 
           decoration: const BoxDecoration(shape: BoxShape.circle, color: Colors.yellow),
         ), 
-        const Column(
+        Column(
           children: [
-            Text('Welcome'), 
-            Text('John Doe'), 
+            Text('Welcome', 
+            style: TextStyle(fontSize: 12, 
+            fontWeight: FontWeight.w600, 
+            color: Theme.of(context).colorScheme.outline),), 
+            Text('John Doe', 
+            style: TextStyle(fontSize: 14, 
+            fontWeight: FontWeight.w600, 
+            color: Theme.of(context).colorScheme.outline),), 
           ],
         )
       ],
