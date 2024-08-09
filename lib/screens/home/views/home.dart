@@ -28,7 +28,7 @@ class HomeScreen extends StatelessWidget {
 
             BottomNavigationBarItem(
               icon: Icon(CupertinoIcons.home),
-              label: 'Home',
+              label: 'User',
             )
           ]),
       ),

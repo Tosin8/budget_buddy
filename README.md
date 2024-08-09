@@ -1,8 +1,8 @@
 # budget_buddy
 
-A new Flutter project.
+A wallet money management app. 
 
-## Getting Started
-A money management app 
+Industry : Finance. 
+Stack: Bloc state management. 
 
-Stack: Bloc state management
+
