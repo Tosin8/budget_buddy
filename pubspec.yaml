@@ -26,10 +26,7 @@ flutter:
  
   assets:
 
-#images
      - assets/images/not_found.jpg
-
-#icons
      - assets/icons/windows_store.png
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
