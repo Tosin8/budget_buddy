@@ -17,9 +17,9 @@ class MyApp extends StatelessWidget {
       designSize: const Size(360, 690), // Base size for calculations
       minTextAdapt: true,
       splitScreenMode: true,
-      builder: (context, child) {
-        (
-      child: MaterialApp(
+      builder: (context, child) =>
+        
+      MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Expense Tracker',
         theme: ThemeData(
@@ -39,7 +39,6 @@ class MyApp extends StatelessWidget {
       
       ),
     );
-  }, 
-    );
-}
+  }
+    
 }

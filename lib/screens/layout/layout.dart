@@ -5,6 +5,16 @@ class Layout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        if(constraints.maxWidth < 600) {
+          return MobileView(); 
+        } else if (constraints.maxWidth < 1200) {
+          return TabletView(); 
+        } else {
+          return DesktopView(); 
+        }
+      },
+    );
   }
 }
