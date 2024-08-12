@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+import 'desktop/home.dart';
+import 'mobile/home.dart';
+import 'tablet/home.dart';
+
 class Layout extends StatelessWidget {
   const Layout({super.key});
 
@@ -8,11 +12,11 @@ class Layout extends StatelessWidget {
     return LayoutBuilder(
       builder: (context, constraints) {
         if(constraints.maxWidth < 600) {
-          return MobileView(); 
+          return const MobileHome(); 
         } else if (constraints.maxWidth < 1200) {
-          return TabletView(); 
+          return const TabletView(); 
         } else {
-          return DesktopView(); 
+          return const DesktopView(); 
         }
       },
     );
