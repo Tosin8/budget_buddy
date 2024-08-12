@@ -10,6 +10,8 @@ class DesktopView extends StatefulWidget {
 class _DesktopViewState extends State<DesktopView> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return const Scaffold( 
+      body: Center(child: Text('Welcome to Deskop'),),
+    );
   }
 }

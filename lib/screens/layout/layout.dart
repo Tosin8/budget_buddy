@@ -13,7 +13,7 @@ class Layout extends StatelessWidget {
       builder: (context, constraints) {
         if(constraints.maxWidth < 600) {
           return const MobileHome(); 
-        } else if (constraints.maxWidth < 1200) {
+        } else if (constraints.maxWidth < 1000) {
           return const TabletView(); 
         } else {
           return const DesktopView(); 
