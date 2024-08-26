@@ -1,8 +1,14 @@
 # budget_buddy
 
-A wallet money management app. 
+Documentation: 
+Budget Buddy is a wallet finance management app for students. 
 
-Industry : Finance. 
-Stack: Bloc state management. 
+Main Core Functionality: 
+- joint savings
+- track expenses and make order
+- learn finance mgt while in school. 
+- share pocket money 
 
-
+Device: 
+- Tablet
+- Windows

@@ -6,10 +6,17 @@ class TabletView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold( 
-      body: Container(
-        child: const Center(
-          child: Text('Welcome to Tablet View'),
-        ),
+      body: PageView(
+        children:  [
+          Container(
+            decoration: const BoxDecoration(color: Colors.black),
+          ), 
+Container(
+            decoration: const BoxDecoration(color: Colors.green),
+          ), Container(
+            decoration: const BoxDecoration(color: Colors.pink),
+          ), 
+        ],
       )
     );
   }
