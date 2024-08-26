@@ -5,9 +5,11 @@ class TabletView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold( 
-      body: Center(
-        child: Text('Welcome to Tablet View'),
+    return Scaffold( 
+      body: Container(
+        child: const Center(
+          child: Text('Welcome to Tablet View'),
+        ),
       )
     );
   }
