@@ -7,6 +7,7 @@ class MobileHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center, 
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -15,7 +16,7 @@ class MobileHome extends StatelessWidget {
             width: double.infinity, 
             height: 300.h,
             child: Image.asset(
-           ' assets/images/not_found.jpg'),
+           'assets/images/not_found.jpg'),
             ),
             SizedBox(height: 30.h,), 
             const Text('Mobile View for Budget Buddy is currently not avaiblabe on Mobile View, Kindly install it on tablet or visit the MS Store for Desktop mode',), 
