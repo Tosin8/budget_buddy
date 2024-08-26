@@ -14,9 +14,11 @@ class AppFormField extends StatelessWidget {
 
 final String formtext; 
 final IconData? icon; 
+
 final TextEditingController controller = TextEditingController();
 final TextInputAction? textInputAction;
 final TextInputType? textInputType;
+
 
 
   @override
@@ -26,6 +28,7 @@ final TextInputType? textInputType;
     textInputAction: textInputAction,
      decoration:   InputDecoration(
        prefixIcon: Icon(icon), 
+      
        labelText: formtext, 
        labelStyle: const TextStyle(fontSize: 12),
        border: const OutlineInputBorder(

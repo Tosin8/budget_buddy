@@ -20,7 +20,7 @@ final Function() onTap;
         borderRadius: BorderRadius.all(Radius.circular(12), 
         )), 
         child: Align(
-          child: Text(buttontext),
+          child: Text(buttontext,style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
         ),
       ),
     );
