@@ -1,21 +1,17 @@
 name: budget_buddy
 description: "A Student Money Management App."
 
-
-
 environment:
   sdk: '>=3.4.4 <4.0.0'
-
 
 dependencies:
   cupertino_icons: ^1.0.6
   flutter:
     sdk: flutter
   flutter_screenutil: ^5.9.3
+  iconsax: ^0.0.8
 
 dev_dependencies:
-
-
   flutter_lints: ^3.0.0
   flutter_test:
     sdk: flutter
@@ -23,16 +19,15 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
- 
+
   assets:
 
-     - assets/images/not_found.jpg
-     - assets/icons/windows_store.png
+    - assets/images/not_found.jpg
+    - assets/icons/windows_store.png
+    - assets/images/app_bkg.jpg
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
-  
-  
   # example:
   # fonts:
   #   - family: Schyler
@@ -46,4 +41,3 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
-  
