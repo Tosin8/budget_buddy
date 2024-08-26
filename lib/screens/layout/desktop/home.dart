@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:iconsax/iconsax.dart';
 
 import 'auth/login_screen.dart';
 import 'auth/resetpwd_screen.dart';
