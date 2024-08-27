@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 
-class TabletView extends StatelessWidget {
+class TabletView extends StatefulWidget {
   const TabletView({super.key});
 
+  @override
+  State<TabletView> createState() => _TabletViewState();
+}
+
+class _TabletViewState extends State<TabletView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold( 
@@ -15,13 +20,16 @@ class TabletView extends StatelessWidget {
 // Image
                 Container(
                 decoration: const BoxDecoration(
-                  image: DecorationImage(image: AssetImage(''))
+                  image: DecorationImage(
+                    image: AssetImage('assets/icons/track_expenses.jpg'))
                 ),
                 ),
 
                 // title
+                const Text('Smart Spending'), 
                 
                 //sub title.  
+                const Text('Organize expenses and streamline your finances')
               ],
             )
           ), 
