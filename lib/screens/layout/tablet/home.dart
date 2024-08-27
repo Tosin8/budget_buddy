@@ -12,10 +12,14 @@ class TabletView extends StatelessWidget {
             decoration: const BoxDecoration(), 
             child:  Column(
               children: [
-
+// Image
                 Container(
-                ,
-                ), 
+                
+                ),
+
+                // title
+                
+                //sub title.  
               ],
             )
           ), 
