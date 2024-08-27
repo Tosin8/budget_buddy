@@ -27,6 +27,13 @@ flutter:
     - assets/images/not_found.jpg
     - assets/icons/windows_store.png
     - assets/images/app_bkg.jpg
+    
+
+#icons. 
+    - assets/icons/joint_savings.jpg 
+    - assets/icons/learn.png
+    - assets/icons/share_money.jpg
+    - assets/icons/track_expenses.jpg 
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

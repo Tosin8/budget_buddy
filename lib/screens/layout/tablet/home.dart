@@ -14,7 +14,9 @@ class TabletView extends StatelessWidget {
               children: [
 // Image
                 Container(
-                
+                decoration: const BoxDecoration(
+                  image: DecorationImage(image: AssetImage(''))
+                ),
                 ),
 
                 // title
