@@ -9,7 +9,15 @@ class TabletView extends StatelessWidget {
       body: PageView(
         children:  [
           Container(
-            decoration: const BoxDecoration(color: Colors.black),
+            decoration: const BoxDecoration(), 
+            child:  Column(
+              children: [
+
+                Container(
+                ,
+                ), 
+              ],
+            )
           ), 
 Container(
             decoration: const BoxDecoration(color: Colors.green),
